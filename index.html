@@ -1,0 +1,59 @@
+<main>
+  <head>
+    <title id="Monster Hunter World Survey"></title>
+    <link rel = "stylesheet" href = "SurveyForm.css">
+  </head>
+
+  <div id="form">
+  <h1 id="title"> Monster Hunter World Survey</h1>
+
+  <p id="description"> Thank you for taking the time to fill out our survey. Below, you'll find a few questions to answer that can help
+  us to improve the Monster Hunter World experience.</p>
+
+  <form id="survey-form">
+
+    <div id="space"><label for="name" id="name-label">Name</label>: <input type="text" id="name" placeholder="Enter your name here" required></div><br>
+    <div id="space"><label for="email" id="email-label">Email</label>: <input type="email" id="email" placeholder="Enter a valid email" required></div><br>
+    <div id="space"><label for="age" id="number-label">Age<label>: <input type="number" id="number" placeholder="#" min="0" max="110" required></div><br>
+
+    <div id="space">
+    Of these weapon types, which do you feel is the strongest overall?
+    <select id="dropdown" placeholder="select one">
+      <option value="" diabled selected> -Select below- </option>
+      <option> Longsword </option>
+      <option> Dual Blades </option>
+      <option> Great Sword </option>
+      <option> Heavy Bowgun </option>
+      <option> Hunting Horn </option>
+    </select><br><br>
+    </div>
+
+    <div id="space">
+    Of these monsters, which do you find the most challenging? <br><br>
+    <input type="radio" name="monster" value="Nergigante"> Nergigante <br>
+    <input type="radio" name="monster" value="Deviljho"> Deviljho <br>
+    <input type="radio" name="monster" value="Behemoth"> Behemoth <br>
+    <input type="radio" name="monster" value="Leschen"> Leschen <br>
+    </div>
+
+    <div id="space">
+    From the options available, select all of the events that you enjoy<br><br>
+    <input type="checkbox" value="EffluvialOpera"> Effluvial Opera <br>
+    <input type="checkbox" value="BlueDustRedLust"> When Blue Dust Surpasses Red Lust <br>
+    <input type="checkbox" value="NoseEye"> A Nose for an Eye <br>
+    <input type="checkbox" value="DeathlyCurtain"> The Deathly Quiet Curtain <br>
+    <input type="checkbox" value="SimpleTask"> A Simple Task <br>
+    </div>
+
+    <div id="space">
+    <textarea>
+Feel free to provide any comments or suggestions you might have for this game.
+    </textarea><br>
+    </div>
+
+    <div id="space">
+    <input type="submit" id="submit" value="Submit">
+    <div id="space">
+  </form>
+  </div>
+</main>
