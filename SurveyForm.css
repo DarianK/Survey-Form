@@ -33,11 +33,6 @@ textarea {
   height: 20%;
 }
 
-#submit {
-  width: 100px;
-  height: 500px;
-}
-
 #flex-container {
   display: flex;
   border: solid black 4px;
